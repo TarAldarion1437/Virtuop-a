@@ -1,7 +1,9 @@
 // Esta es la primera página que se mostrará
 import { useState, useContext } from "react";
 import AuthContext from "../context/authContext";
-
+import Form from 'react-bootstrap/Form';
+import Badge from 'react-bootstrap/Badge'
+import FloatingLabel from "react-bootstrap/esm/FloatingLabel";
 
 const Login = () => {
     const {handleAuth} = useContext(AuthContext);
@@ -21,20 +23,53 @@ const Login = () => {
 
     return(
         <div className="login">
-            <div className="loginbackground">
-            <h1>LOGIN</h1>
-            <form size="sm"> 
-                <label for="user" fontweight="bold">user</label>
-                <input id="user"  type="text" value={user} onChange={handleUser}/>
-                <br></br>
-                <label for="passw" >password</label>
-                <input id="passw" type="password" value={passw} onChange={handlePass}/> 
-                <br></br>
-                <button onClick={handleLogin}> Enviar</button>
-            </form>
+            <div className="section">
+                <div className="row full-height justify-content-center">
+                    <div  className="col-12 text-center align-self-center py-5">
+                        <div className="section pb-5 pt-5 pt-sm-2 text-center">
+                            <div className="card-3d-wrap mx-auto">
+                                <div className="card-3d-wraper">
+                                    <div className="card-front">
+                                        <div className="center-wrap">
+                                            <div className="section text-center">
+                                                <br></br>
+                                            <h4 className="mb-4 pb-3"> <Badge bg="secondary" style={ {padding: "10px"} } >LOGIN </Badge>  </h4>
+                                            <Form>
+                                            <div className="form-group mt-2">
+                                                <FloatingLabel
+                                                    controlId="floatingInput"
+                                                    label= "usuario"
+                                                    className="mb-3"
+                                                >
+                                                <Form.Control className="form-style" type="text" placeholder="usuario" value={user} onChange={handleUser}/>
+                                                </FloatingLabel>
+                                                </div> 
+                                                <br></br>
+                                            <div  className="form-group">
+                                                <FloatingLabel
+                                                controlId="floatingPassword"
+                                                label= "contraseña"
+                                                className="mb-3"
+                                                >
+                                                    <Form.Control type="password" placeholder="contraseña" value={passw} onChange={handlePass} />
+                                                </FloatingLabel>
+                                                </div>
+                                                <button onClick={handleLogin} className="btnlogin" >
+                                                    enviar
+                                                </button>
+                                                </Form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>
+        </div>   
     )
 }
 
 export default Login;
+
