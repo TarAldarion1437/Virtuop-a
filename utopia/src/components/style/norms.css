@@ -1,0 +1,21 @@
+
+.normshome{
+    background: #333;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    min-height: 90vh;
+    justify-content: center;
+    align-items: center;
+} 
+
+.normcontainer{
+    width: 1500px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.normsimg{
+    max-width: 100px;
+} 

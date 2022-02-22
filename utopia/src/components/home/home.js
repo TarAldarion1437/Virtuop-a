@@ -4,22 +4,53 @@ import { Link, Outlet } from "react-router-dom";
 import AuthContext from "../../context/authContext";
 import "../style/home.css";
 
+//bootstrap
+
+import Nav from 'react-bootstrap/Nav'
+
 //iconos
-import {BoxArrowLeft} from 'react-bootstrap-icons'
+import {BoxArrowLeft, GeoAlt, ListColumns, PersonRolodex} from 'react-bootstrap-icons'
 
 
 function Home() {
     const {handleLogout} = useContext(AuthContext);
     return(
-            <div >
-                <header>
-                <Link to ="/normas">  REGLAS</Link>
-                <Link to="/"> <BoxArrowLeft/> Volver</Link>
-                <button onClick={handleLogout} >salir</button>
-                </header>
+            <div className="home" >
+                <Nav variant="tabs">
+                    <Nav.Item>
+                        <Nav.Link>
+                            <Link to ="/normas"> <ListColumns/> REGLAS</Link>
+                        </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link>
+                            <Link to ="/roles"> <PersonRolodex/> ROLES</Link>
+                        </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link>
+                            <Link to ="/mapa"> <GeoAlt/> MAPA</Link>
+                        </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link> 
+                            <Link to="/"> <BoxArrowLeft/> </Link>
+                        </Nav.Link>
+                    </Nav.Item>
+                    <Nav.Item>
+                        <Nav.Link>
+                            <button onClick={handleLogout} >salir</button>
+                        </Nav.Link>
+                    </Nav.Item>
+                </Nav>
+                
                 <Outlet/>
                 
-                
+                <div className="mainfooter">
+                    <div className="virtufooter"> 
+                        <h5>  ©Virtuopia 2022 </h5>
+                    </div>
+                </div>
                 
             </div>
     )
