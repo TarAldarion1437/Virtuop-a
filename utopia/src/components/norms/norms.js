@@ -2,6 +2,8 @@
 
 import "../style/norms.css";
 
+import robot from '../../assets/robotfinal.png';
+
 import Badge from 'react-bootstrap/Badge'
 import Accordion from 'react-bootstrap/Accordion'
 import Container from 'react-bootstrap/Container'
@@ -39,7 +41,7 @@ const Norms = () => {
                     </Container>
                 </div>
                 <div className="normsimg">
-                    <p>imagen sensual</p>
+                    <img  src={robot} alt="robot"></img>
                 </div>
             </div>
         </div>
