@@ -104,4 +104,19 @@
     display: flex;
     justify-content: left;
     margin-left: 20px;
+    padding: 10px;
+}
+.virtufooter-h5{
+    padding-left: 10px;
+    top: 5px;
+}
+
+.imgfooter{
+    height: 45px;
+    width: 45px;
+}
+
+.imgheader{
+    height: 40px;
+    width: 40px;
 }

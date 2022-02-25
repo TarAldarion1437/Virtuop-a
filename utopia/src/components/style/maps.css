@@ -16,17 +16,17 @@
 }
 .floorcontainer{
     padding-top: 10px;
-    background: rgb(14, 51, 75, 0.1);
+    background: rgb(14, 51, 75, 0.3);
 }
 .mapcard{
     padding-top: 10px;
-    background: rgb(14, 51, 75, 0.1);
     font-weight: bold;
-    color: white;
+    /* background: rgb(14, 51, 75, 1); */
 }
 .maplist{
-    background: rgb(14, 51, 75, 0.1);
-}
+    padding-top: 10px;
+    /* background: rgb(14, 51, 75, 1); */
+} 
 
 .mapimg{
     padding-left: 10px;

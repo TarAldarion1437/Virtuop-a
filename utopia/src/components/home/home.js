@@ -3,6 +3,9 @@ import { useContext } from "react";
 import { Link, Outlet } from "react-router-dom";
 import AuthContext from "../../context/authContext";
 import "../style/home.css";
+import logo from '../../assets/ckl8l1we3tb21.png';
+import logo2 from '../../assets/logo2.png';
+
 
 //bootstrap
 
@@ -42,13 +45,17 @@ function Home() {
                             <button onClick={handleLogout} >salir</button>
                         </Nav.Link>
                     </Nav.Item>
+                    <Nav.Item>
+                        <img  src={logo2} alt="header" className="imgheader"></img>
+                    </Nav.Item>
                 </Nav>
                 
                 <Outlet/>
                 
                 <div className="mainfooter">
                     <div className="virtufooter"> 
-                        <h5>  ©Virtuopia 2022 </h5>
+                        <img  src={logo} alt="footer" className="imgfooter"></img>
+                        <h5>  ©Solarborg 2022 </h5>
                     </div>
                 </div>
                 

@@ -16,7 +16,7 @@ const Dashboard = () => {
                     <div className="face face2">
                         <div className="contentdash">
                             <p> Lorem ipsum </p>
-                            <Link to ="/normas">  REGLAS</Link>
+                            <Link to ="/normas">  ENTRAR</Link>
                         </div>
                     </div>
                     </div>
@@ -30,7 +30,7 @@ const Dashboard = () => {
                     <div className="face face2">
                         <div className="contentdash">
                             <p> Lorem ipsum </p>
-                            <a href="#">Ver más</a>
+                            <Link to ="/mapa">  ENTRAR</Link>
                         </div>
                     </div>
                     </div>
@@ -44,7 +44,7 @@ const Dashboard = () => {
                     <div className="face face2">
                         <div className="contentdash">
                             <p> Lorem ipsum </p>
-                            <a href="#">Ver más</a>
+                            <Link to ="/roles">  ENTRAR </Link>
                         </div>
                     </div>
                     </div> 

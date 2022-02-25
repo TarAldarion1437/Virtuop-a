@@ -12,7 +12,7 @@ const Maps = () => {
                 <div> <Building   size={96}/> <br></br>
                 <Container className="floorcontainer"> 
                     <h1>Lobby</h1>
-                        
+                    
                     <ListGroup horizontal variant="flush">
                         <ListGroup.Item className="maplist" >
                             <Card style={{ width: '12rem'}} className="mapcard">
@@ -24,7 +24,7 @@ const Maps = () => {
                             </Card>
                         </ListGroup.Item >
                         <ListGroup.Item className="maplist">
-                            <Card style={{ width: '12rem'}} className="mapcard">
+                            <Card style={{ width: '12rem', background: 'rgb(14, 51, 75, 0.3)'}} className="mapcard">
                                 <Card.Body> 
                                 <Card.Title> Cuarto#2</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
