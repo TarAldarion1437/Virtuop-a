@@ -28,6 +28,13 @@ const Norms = () => {
                                 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
                             </Accordion.Body>
                         </Accordion.Item>
+                        <Accordion.Item eventKey="2">
+                            <Accordion.Header> Regla #2 </Accordion.Header>
+                            <Accordion.Body>
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                            </Accordion.Body>
+                        </Accordion.Item>
                     </Accordion>
                     </Container>
                 </div>

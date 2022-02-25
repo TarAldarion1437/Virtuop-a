@@ -1,8 +1,12 @@
+import '../style/roles.css'
+
 const Roles = () => {
     return(
-        <div>
-            <h1>Roles</h1>
-            <p>loren ipsum</p>
+        <div className="roleshome">
+            <div className="rolecontainer">
+                <h1>Roles1</h1>
+                <p>loren ipsum</p>
+            </div>
         </div>
     )
 }

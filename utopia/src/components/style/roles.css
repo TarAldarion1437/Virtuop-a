@@ -1,5 +1,4 @@
-
-.normshome{
+.roleshome{
     background: #333;
     display: flex;
     margin: 0;
@@ -7,16 +6,11 @@
     min-height: 90vh;
     justify-content: center;
     align-items: center;
-} 
+}
 
-.normcontainer{
+.rolecontainer{
     width: 1500px;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
 }
-
-.normsimg{
-    max-width: 100px;
-} 
-

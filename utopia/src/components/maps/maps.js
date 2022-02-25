@@ -1,8 +1,176 @@
+import '../style/maps.css'
+import ListGroup from 'react-bootstrap/ListGroup';
+import Container from 'react-bootstrap/Container'
+import Card from 'react-bootstrap/Card';
+import { Building } from 'react-bootstrap-icons'
+
+
 const Maps = () => {
     return(
-        <div>
-            <h1>Mapas</h1>
-            <p>loren ipsum</p>
+        <div className="maphome"> 
+            <div className="mapcontainer">  
+                <div> <Building   size={96}/> <br></br>
+                <Container className="floorcontainer"> 
+                    <h1>Lobby</h1>
+                        
+                    <ListGroup horizontal variant="flush">
+                        <ListGroup.Item className="maplist" >
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#1</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item >
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#2</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#3</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#4</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#5</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                    </ListGroup>
+                </Container>
+                <br></br>
+                <Container className="floorcontainer"> 
+                    <h1>Piso 1</h1>
+                        
+                    <ListGroup horizontal variant="flush">
+                        <ListGroup.Item className="maplist" >
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#1</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item >
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#2</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#3</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#4</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#5</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                    </ListGroup>
+                </Container>
+                <br></br>
+                <Container className="floorcontainer"> 
+                    <h1>Terraza</h1>
+                        
+                    <ListGroup horizontal variant="flush">
+                        <ListGroup.Item className="maplist" >
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#1</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item >
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#2</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#3</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#4</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                        <ListGroup.Item className="maplist">
+                            <Card style={{ width: '12rem'}} className="mapcard">
+                                <Card.Body> 
+                                <Card.Title> Cuarto#5</Card.Title>
+                                <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
+                                </Card.Body>
+                                <Card.Footer> Entrar </Card.Footer>
+                            </Card>
+                        </ListGroup.Item>
+                    </ListGroup>
+                </Container>
+                </div> 
+                <div className="mapimg">
+                    <h1>Imagen 1</h1>
+                    <h1>Imagen 2</h1>
+                </div>
+            </div>
         </div>
     )
 }
