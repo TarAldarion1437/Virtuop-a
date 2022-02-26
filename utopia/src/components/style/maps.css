@@ -9,7 +9,7 @@
 }
 
 .mapcontainer{
-    width: 1500px;
+    width: 1300px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -29,7 +29,8 @@
 } 
 
 .mapimg{
-    padding-left: 10px;
     position: relative;
-    top: 80px;
+    top: 100px;
+    width: 220px;
+    height: auto;
 }

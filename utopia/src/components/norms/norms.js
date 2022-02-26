@@ -40,8 +40,8 @@ const Norms = () => {
                     </Accordion>
                     </Container>
                 </div>
-                <div className="normsimg">
-                    <img  src={robot} alt="robot"></img>
+                <div>
+                    <img className="normsimg"  src={robot} alt="robot"></img>
                 </div>
             </div>
         </div>

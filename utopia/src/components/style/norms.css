@@ -10,13 +10,13 @@
 } 
 
 .normcontainer{
-    width: 1500px;
+    width: 1300px;
     position: relative;
     display: flex;
     justify-content: space-between;
 }
 
 .normsimg{
-    max-width: 100px;
+    height: max-content;
 } 
 

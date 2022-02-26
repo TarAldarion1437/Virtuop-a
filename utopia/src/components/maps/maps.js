@@ -1,4 +1,6 @@
 import '../style/maps.css'
+import robot from '../../assets/robotfinal.png';
+
 import ListGroup from 'react-bootstrap/ListGroup';
 import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card';
@@ -166,9 +168,8 @@ const Maps = () => {
                     </ListGroup>
                 </Container>
                 </div> 
-                <div className="mapimg">
-                    <h1>Imagen 1</h1>
-                    <h1>Imagen 2</h1>
+                <div >
+                    <img className="mapimg" src={robot} alt="robot"></img>
                 </div>
             </div>
         </div>
