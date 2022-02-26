@@ -50,7 +50,7 @@ function Home() {
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link>
-                            <button className="btnhome" onClick={handleLogout} >salir</button>
+                            <button className="btnhome" onClick={handleLogout} ><span>salir </span> </button>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>

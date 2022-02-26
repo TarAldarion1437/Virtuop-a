@@ -8,12 +8,18 @@
     align-items: center;
 }
 
-/* .rolecontainer{
-    width: 1500px;
-    position: relative;
+.rolecontainer{
+    width: 1300px;
     display: flex;
-    justify-content: center;
-} */
+    justify-content: space-around;
+}
+
+.roleimg{
+    height: max-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+} 
 
 /* TEXT ANIMATION */
 .content {

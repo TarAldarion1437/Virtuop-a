@@ -37,7 +37,6 @@ const Citizens = () => {
     
     
     return(
-        <div>
             <Table striped bordered hover variant="dark">
                 <thead>
                     <tr>
@@ -62,7 +61,6 @@ const Citizens = () => {
                     })}
                 </tbody>
             </Table>
-        </div>
     )
 }
 
