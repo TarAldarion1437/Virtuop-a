@@ -1,3 +1,4 @@
-# Solarborg 
+# Virtuopía
+ 
 
-Solarborg es un proyecto que plantea mostrar a través de una página web el funcionamiento de una utopía con estética SolarPunk
+Virtuopía es un proyecto que plantea mostrar a través de una página web el funcionamiento de una utopía con estética SolarPunk
