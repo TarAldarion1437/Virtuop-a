@@ -3,6 +3,7 @@ import Citizens from './citizens';
 import Otherrole from './otherrole';
 import Roledef from './roledef';
 import Container from 'react-bootstrap/esm/Container';
+import punk from '../../assets/punk.png';
 
 const Roles = () => {
     return(
@@ -23,7 +24,7 @@ const Roles = () => {
                         </div>
                     </div>
                     <div className="roleimg">
-                        <h1>imagen</h1>
+                        <img className="imgpunk" src={punk} alt="punkgirl"></img>
                     </div>
             </div>
         </div>

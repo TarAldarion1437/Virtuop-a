@@ -22,7 +22,9 @@ const Maps = () => {
                                 <Card.Title> Cuarto#1</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> 
+                                <button className="btnhome">  <span> Entra</span>   </button>
+                                </Card.Footer>
                             </Card>
                         </ListGroup.Item >
                         <ListGroup.Item className="maplist">
@@ -31,7 +33,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#2</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span> Entra</span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -40,7 +42,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#3</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span> Entra</span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -49,7 +51,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#4</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span> Entra </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -58,7 +60,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#5</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span>Entra </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                     </ListGroup>
@@ -74,7 +76,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#1</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span>Entra </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item >
                         <ListGroup.Item className="maplist">
@@ -83,7 +85,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#2</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span> Entra</span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -92,7 +94,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#3</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span> Entra</span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -101,7 +103,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#4</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span>Entra </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -110,7 +112,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#5</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome">  <span> Entra</span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                     </ListGroup>
@@ -126,7 +128,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#1</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome"> Entra <span> </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item >
                         <ListGroup.Item className="maplist">
@@ -135,7 +137,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#2</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome"> Entra <span> </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -144,7 +146,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#3</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome"> Entra <span> </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -153,7 +155,7 @@ const Maps = () => {
                                 <Card.Title> Cuarto#4</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome"> Entra <span> </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                         <ListGroup.Item className="maplist">
@@ -162,14 +164,14 @@ const Maps = () => {
                                 <Card.Title> Cuarto#5</Card.Title>
                                 <Card.Text> Esta es la descripción de todo lo que iría en un card text </Card.Text>
                                 </Card.Body>
-                                <Card.Footer> Entrar </Card.Footer>
+                                <Card.Footer> <button className="btnhome"> Entra <span> </span>   </button> </Card.Footer>
                             </Card>
                         </ListGroup.Item>
                     </ListGroup>
                 </Container>
                 </div> 
                 <div >
-                    <img className="mapimg" src={robot} alt="robot"></img>
+                <img className="mapimg" src={robot} alt="robot"></img>
                 </div>
             </div>
         </div>

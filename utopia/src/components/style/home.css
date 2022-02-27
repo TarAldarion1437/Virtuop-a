@@ -114,11 +114,13 @@
 .imgfooter{
     height: 45px;
     width: 45px;
+    margin-right: 10px;
 }
 
 .imgheader{
     height: 40px;
     width: 40px;
+    margin-top: 10px;
 }
 
 /* BOTÓN */

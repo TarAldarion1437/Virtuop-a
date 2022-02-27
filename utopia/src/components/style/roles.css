@@ -4,8 +4,9 @@
     margin: 0;
     padding: 0;
     min-height: 90vh;
-    justify-content: center;
-    align-items: center;
+    justify-content: start;
+    align-items: left;
+    margin-left: 50px;
 }
 
 .rolecontainer{
@@ -20,6 +21,11 @@
     top: 50%;
     left: 50%;
 } 
+
+.imgpunk{
+    max-width: 78%;
+    height: auto;
+}
 
 /* TEXT ANIMATION */
 .content {

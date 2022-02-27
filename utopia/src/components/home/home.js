@@ -1,10 +1,11 @@
 // luego del login se muestra esta página y se arma el menu del navbar
 import { useContext } from "react";
-import { Link, Outlet } from "react-router-dom";
+import { Link, Outlet} from 'react-router-dom';
 import AuthContext from "../../context/authContext";
 import "../style/home.css";
 import logo from '../../assets/ckl8l1we3tb21.png';
 import logo2 from '../../assets/logo2.png';
+
 
 
 //bootstrap
@@ -12,7 +13,7 @@ import logo2 from '../../assets/logo2.png';
 import Nav from 'react-bootstrap/Nav'
 
 //iconos
-import {BoxArrowLeft, GeoAlt, ListColumns, PersonRolodex} from 'react-bootstrap-icons'
+import {BoxArrowLeft, GeoAlt, ListColumns, PersonRolodex, BookFill} from 'react-bootstrap-icons'
 
 
 function Home() {
@@ -41,6 +42,13 @@ function Home() {
                             </button>
                         </Nav.Link>
                     </Nav.Item>
+                    <Nav.Item >
+                        <Nav.Link> 
+                            <button className="btnhome"> 
+                                <Link to="/library" className="linkh"> <BookFill/> </Link>
+                            </button>
+                        </Nav.Link>
+                    </Nav.Item>
                     <Nav.Item>
                         <Nav.Link> 
                             <button className="btnhome"> 
@@ -58,8 +66,9 @@ function Home() {
                     </Nav.Item>
                 </Nav>
                 
-                <Outlet/>
                 
+                <Outlet/>
+
                 <div className="mainfooter">
                     <div className="virtufooter"> 
                         <img  src={logo} alt="footer" className="imgfooter"></img>
