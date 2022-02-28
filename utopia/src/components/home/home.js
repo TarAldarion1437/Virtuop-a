@@ -24,21 +24,21 @@ function Home() {
                     <Nav.Item>
                         <Nav.Link>
                             <button className="btnhome"> 
-                                <Link to ="/normas" className="linkh"> <ListColumns/> REGLAS</Link>
+                                <Link to ="/normas" className="linkh"> <ListColumns/> </Link>
                             </button>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link>
                             <button className="btnhome"> 
-                                <Link to ="/roles" className="linkh"> <PersonRolodex/> ROLES</Link>
+                                <Link to ="/roles" className="linkh"> <PersonRolodex/> </Link>
                             </button>
                         </Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
                         <Nav.Link>
                             <button className="btnhome"> 
-                                <Link to ="/mapa" className="linkh"> <GeoAlt/> MAPA</Link>
+                                <Link to ="/mapa" className="linkh"> <GeoAlt/> </Link>
                             </button>
                         </Nav.Link>
                     </Nav.Item>

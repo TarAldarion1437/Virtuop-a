@@ -1,5 +1,5 @@
 .maphome{
-    background: #333;
+    background: #0E334Bff;
     display: flex;
     margin: 0;
     padding: 0;
@@ -7,7 +7,10 @@
     justify-content: center;
     align-items: center;
 }
-
+.mapti{
+    color: white;
+    margin-top: 5px;
+}
 .mapcontainer{
     width: 1300px;
     position: relative;
@@ -21,22 +24,37 @@
 .mapcard{
     padding-top: 10px;
     font-weight: bold;
-    /* background: rgb(14, 51, 75, 1); */
 }
 .maplist{
     padding-top: 10px;
-    /* background: rgb(14, 51, 75, 1); */
 } 
+.maptitle{
+    font-family: 'Miltonian';
+}
 
 .mapimg{
     position: relative;
-    top: 100px;
-    width: 220px;
+    top: 140px;
+    right: 180px;
+    width: 205px;
+    height: auto;
+}
+.mapimg1{
+    position: relative;
+    top: 310px;
+    width: 200px;
+    height: auto;
+}
+.mapimg2{
+    position: relative;
+    top: 560px;
+    right: 350px;
+    width: 200px;
     height: auto;
 }
 
 /* BOTÓN */
-.btnhome{
+.btnhome1{
     width: 80px;
     height: auto;
     color: #fff;
@@ -44,7 +62,7 @@
     border: none;
     padding: 0;
     font-weight: 500;
-    background: linear-gradient(0deg, rgba(255,151,0,1) 0%, rgba(251, 75,2, 1)100%);
+    background: linear-gradient(0deg, rgba(237,207,1,1) 0%, rgba(1, 114,192, 1)100%);
     cursor: pointer;
     transition: all 0.3s ease;
     position: relative;
@@ -58,20 +76,20 @@
 }
 
 
-.btnhome span{
+.btnhome1 span{
     position: relative;
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.btnhome::before,
-.btnhome::after{
+.btnhome1::before,
+.btnhome1::after{
     position: absolute;
     content: "";
     right: 0;
     bottom: 0;
-    background: rgba(251, 75,2, 1);
+    background: rgba(1, 114,192, 1);
     box-shadow: 
     -7px -7px 20px 0px rgba(255, 255, 255, .9),
     -4px -4px 5px 0px rgba(255, 255, 255, .9),
@@ -80,32 +98,32 @@
     transition: all 0.3s ease;
 }
 
-.btnhome::before{
+.btnhome1::before{
     height: 0%;
     width: 2px;
 }
 
-.btnhome::after{
+.btnhome1::after{
     width: 0%;
     height: 2px;
 }
-.btnhome:hover{
-    color: rgba(251, 75,2, 1);
+.btnhome1:hover{
+    color: white;
     background: transparent;
 }
-.btnhome:hover::before{
+.btnhome1:hover::before{
     height: 100%;
 }
-.btnhome:hover::after{
+.btnhome1:hover::after{
     width: 100%;
 }
-.btnhome span::before,
-.btnhome span::after{
+.btnhome1 span::before,
+.btnhome1 span::after{
     position: absolute;
     content: "";
     left: 0;
     top: 0;
-    background: rgba(251, 75,2, 1);
+    background: rgba(1, 114,192, 1);
     box-shadow: 
     -7px -7px 20px 0px rgba(255, 255, 255, .9),
     -4px -4px 5px 0px rgba(255, 255, 255, .9),
@@ -113,24 +131,17 @@
     4px 4px 5px 0px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
 }
-.btnhome span::before{
+.btnhome1 span::before{
     width: 2px;
     height: 0%;
 }
-.btnhome span::after{
+.btnhome1 span::after{
     height: 2px;
     width: 0%;
 }
-.btnhome span:hover::before{
+.btnhome1 span:hover::before{
     height: 100%;
 }
-.btnhome span:hover::after{
+.btnhome1 span:hover::after{
     width: 100%;
-}
-.linkh{
-    color: #fff;
-}
-
-.linkh:hover{
-    color:rgba(251, 75,2, 1)
 }

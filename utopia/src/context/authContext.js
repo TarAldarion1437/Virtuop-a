@@ -10,7 +10,7 @@ const AuthProvider = ({children}) => {
     
     const handleAuth = (user, pass) => {
         console.log("Cualquier cosa blablabla");
-        if(user === "admin" && pass === "12345"){
+        if(user === "quevedo17" && pass === "velaskeyosoiguapa?"){
             setAuth(true);
             console.log(true);
         }

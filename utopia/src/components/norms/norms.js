@@ -14,27 +14,24 @@ const Norms = () => {
             <div className="normcontainer">
                 <div>
                     <Container>
-                    <h1> <Badge bg="warning">  Reglas </Badge> </h1>
+                    <h1> <Badge bg="success" >  Reglas </Badge> </h1>
                     <Accordion defaultActiveKey={['0']} alwaysOpen flush>
                         <Accordion.Item eventKey="0">
-                            <Accordion.Header> Regla #1 </Accordion.Header>
+                            <Accordion.Header className="normsheader"> Regla #1 </Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                                No atentarás contra la integridad física del prójimo, de ti mismo, ni de las instalaciones del recinto.
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="1">
-                            <Accordion.Header> Regla #2 </Accordion.Header>
+                            <Accordion.Header className="normsheader"> Regla #2 </Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                                No sobrepasar los límites designados
                             </Accordion.Body>
                         </Accordion.Item>
                         <Accordion.Item eventKey="2">
-                            <Accordion.Header> Regla #2 </Accordion.Header>
+                            <Accordion.Header className="normsheader"> Regla #3 </Accordion.Header>
                             <Accordion.Body>
-                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
-                                Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+                                Cumplir con las funciones designadas por el algoritmo. No faltar al rol asignado
                             </Accordion.Body>
                         </Accordion.Item>
                     </Accordion>

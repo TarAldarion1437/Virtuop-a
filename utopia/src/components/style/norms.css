@@ -1,6 +1,6 @@
 
 .normshome{
-    background: #333;
+    background: #0E334Bff;
     display: flex;
     margin: 0;
     padding: 0;
@@ -8,6 +8,9 @@
     justify-content: center;
     align-items: center;
 } 
+.roleti{
+    color: white;
+}
 
 .normcontainer{
     width: 1300px;
@@ -19,4 +22,12 @@
 .normsimg{
     height: max-content;
 } 
+
+.normsheader{
+    font-family: 'Miltonian';
+}
+
+h1{
+    font-family: 'Miltonian';
+}
 

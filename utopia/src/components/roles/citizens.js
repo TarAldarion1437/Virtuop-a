@@ -6,31 +6,45 @@ import { useState } from 'react';
 const Citizens = () => {
     const [persons, setPersons] = useState([ 
         {
-        user: 1, 
+        user: 'PgRAcat', 
         id: 1, 
         compatibilidad: '96%', 
-        subrol: 'admin', 
+        subrol: 'boss', 
         disponible: 'si'
     },
     {
-        user: 2, 
+        user: 'SPhEcEnt', 
         id: 2, 
-        compatibilidad: '16%', 
-        subrol: 'admin', 
-        disponible: 'si'
-    },
-    {
-        user: 3, 
-        id: 3, 
         compatibilidad: '93%', 
-        subrol: 'admin', 
+        subrol: 'grey hat', 
         disponible: 'si'
     },
     {
-        user: 4, 
+        user: 'sINdepTi', 
+        id: 3, 
+        compatibilidad: '16%', 
+        subrol: 'agente de regulación cibernética', 
+        disponible: 'si'
+    },
+    {
+        user: 'TreSpHin', 
         id: 4, 
+        compatibilidad: '93%', 
+        subrol: 'facilitador de paz', 
+        disponible: 'si'
+    },
+    {
+        user: 'ThANdMis', 
+        id: 5, 
+        compatibilidad: '93%', 
+        subrol: 'black hat', 
+        disponible: 'si'
+    },
+    {
+        user: 'EtIMiAny', 
+        id: 6, 
         compatibilidad: '86%', 
-        subrol: 'admin', 
+        subrol: 'grey hat', 
         disponible: 'no'
     }
     ])
