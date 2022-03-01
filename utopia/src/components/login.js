@@ -33,7 +33,7 @@ const Login = () => {
                                         <div className="center-wrap">
                                             <div className="section text-center">
                                                 <br></br>
-                                            <h4 className="mb-4 pb-3"> <Badge bg="secondary" style={ {padding: "10px"} } >LOG IN </Badge>  </h4>
+                                            <h4 className="mb-4 pb-3"> <Badge bg="secondary" style={ {padding: "10px"} } >LOG IN1 </Badge>  </h4>
                                             <Form>
                                             <div className="form-group mt-2">
                                                 <FloatingLabel
