@@ -8,10 +8,14 @@ import Container from 'react-bootstrap/Container'
 import Card from 'react-bootstrap/Card';
 import { Building } from 'react-bootstrap-icons'
 
+import { Helmet } from 'react-helmet'
+
+
 
 const Maps = () => {
     return(
         <div className="maphome"> 
+        <Helmet title="Solarborg Mapa" />
             <div className="mapcontainer">  
                 <div> <Building  className="mapti"  size={96}/> <br></br>
                 <Container className="floorcontainer"> 

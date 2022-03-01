@@ -1,11 +1,16 @@
 import { Route, Routes } from "react-router-dom";
-import LoginHome from "../components/loginhome";
+
+import React, { lazy, Suspense } from "react";
+
+const LoginHome = lazy(() => import("../components/loginhome") )
 
 const UnauthRouter = () => {
     return (
         <>
             <Routes>
-                <Route path="/" element={<LoginHome/>}>
+                <Route path="/" element={<Suspense fallback={ <h3> Cargando... </h3>}> 
+                <LoginHome/>
+                </Suspense>}>
                 </Route>
             </Routes>
         </>

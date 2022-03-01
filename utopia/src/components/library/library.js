@@ -7,9 +7,13 @@ import Badge from 'react-bootstrap/Badge'
 import Container from 'react-bootstrap/Container'
 import ListGroup from 'react-bootstrap/ListGroup'
 
+import { Helmet } from 'react-helmet'
+
+
 const Library = () => {
     return(
         <div className="normshome">
+            <Helmet title="Solarborg library" />
             <div className="normcontainer">
                 <div>
                     <quote style={{ width: '4rem', background: 'rgb(138, 192, 87, 1)'}}> 

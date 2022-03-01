@@ -41,11 +41,11 @@ const Login = () => {
                                                     label= "usuario"
                                                     className="mb-3"
                                                 >
-                                                <Form.Control className="form-style" type="text" placeholder="usuario" value={user} onChange={handleUser}/>
+                                                <Form.Control  type="text" placeholder="usuario" value={user} onChange={handleUser}/>
                                                 </FloatingLabel>
                                                 </div> 
                                                 <br></br>
-                                            <div  className="form-group">
+                                            <div  className="form-group mt-2">
                                                 <FloatingLabel
                                                 controlId="floatingPassword"
                                                 label= "contraseña"

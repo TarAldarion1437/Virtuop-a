@@ -15,7 +15,7 @@ const Citizens = () => {
     {
         user: 'SPhEcEnt', 
         id: 2, 
-        compatibilidad: '93%', 
+        compatibilidad: '81%', 
         subrol: 'grey hat', 
         disponible: 'si'
     },
@@ -29,21 +29,21 @@ const Citizens = () => {
     {
         user: 'TreSpHin', 
         id: 4, 
-        compatibilidad: '93%', 
+        compatibilidad: '30%', 
         subrol: 'facilitador de paz', 
         disponible: 'si'
     },
     {
         user: 'ThANdMis', 
         id: 5, 
-        compatibilidad: '93%', 
+        compatibilidad: '88%', 
         subrol: 'black hat', 
         disponible: 'si'
     },
     {
         user: 'EtIMiAny', 
         id: 6, 
-        compatibilidad: '86%', 
+        compatibilidad: '68%', 
         subrol: 'grey hat', 
         disponible: 'no'
     }

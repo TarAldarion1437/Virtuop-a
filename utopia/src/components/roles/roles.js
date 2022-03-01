@@ -2,12 +2,16 @@ import '../style/roles.css'
 import Citizens from './citizens';
 import Otherrole from './otherrole';
 import Roledef from './roledef';
-import Container from 'react-bootstrap/esm/Container';
 import punk from '../../assets/punk.png';
+
+import { Helmet } from 'react-helmet'
+
+
 
 const Roles = () => {
     return(
         <div className="roleshome">
+            <Helmet title='Solarborg Roles' />
             <div className="rolescontainer">
                     <div>
                         <div>

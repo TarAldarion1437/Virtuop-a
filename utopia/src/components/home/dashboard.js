@@ -1,10 +1,13 @@
 // esta tarjeta tendrá las tarjetas que mandan a role norms y map
 import { Link } from "react-router-dom";
 
+import { Helmet } from 'react-helmet'
+
 
 const Dashboard = () => {
     return(
         <div className="dashboard"> 
+            <Helmet  title="Solarborg Menu" />
             <div className="containerdash">
                 <div className="cardash">
                     <div className="face face1">
@@ -15,7 +18,7 @@ const Dashboard = () => {
                     </div>
                     <div className="face face2">
                         <div className="contentdash">
-                            <p> Lorem ipsum </p>
+                            <p> Repasa las reglas de Solarborg </p>
                             <Link to ="/normas">  ENTRAR</Link>
                         </div>
                     </div>
@@ -29,7 +32,7 @@ const Dashboard = () => {
                     </div>
                     <div className="face face2">
                         <div className="contentdash">
-                            <p> Lorem ipsum </p>
+                            <p> Visualiza el mapa del edificio y decide qué actividad hacer </p>
                             <Link to ="/mapa">  ENTRAR</Link>
                         </div>
                     </div>
@@ -43,7 +46,7 @@ const Dashboard = () => {
                     </div>
                     <div className="face face2">
                         <div className="contentdash">
-                            <p> Lorem ipsum </p>
+                            <p> Conoce tu rol de este mes </p>
                             <Link to ="/roles">  ENTRAR </Link>
                         </div>
                     </div>
