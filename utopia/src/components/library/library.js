@@ -31,7 +31,7 @@ const Library = () => {
                         <ListGroup.Item> The summer prince Alaya Dawn Johnson</ListGroup.Item>
                         <ListGroup.Item> Nicky Drayden</ListGroup.Item>
                         <ListGroup.Item> <a href="https://solarpunkmagazine.com">magazine de relatos solarpunk </a> </ListGroup.Item>
-                        <ListGroup.Item> <a href="https://colombiailustrada.com/co/robotropico">comic colombiano </a> </ListGroup.Item>
+                        <ListGroup.Item> <a href="https://colombiailustrada.com.co/robotropico">comic colombiano </a> </ListGroup.Item>
 
 
                     </ListGroup>
@@ -57,7 +57,7 @@ const Library = () => {
                     <ListGroup>
                         <ListGroup.Item> Solarpunk: Ecologial and Fantastic Stories in a Sustainable world</ListGroup.Item>
                         <ListGroup.Item> Wings of Renewal: A Solarpunk Dragon Anthology</ListGroup.Item>
-                        <ListGroup.Item> <a href="solarpedia.info">La enciclopedia sustentable </a> </ListGroup.Item>
+                        <ListGroup.Item> <a href="https://www.solarpedia.info/">La enciclopedia sustentable </a> </ListGroup.Item>
 
                     </ListGroup>
                     </Container>
@@ -66,7 +66,7 @@ const Library = () => {
                     <Container>
                     <h1> <Badge bg="success">Música</Badge>  </h1>
                     <ListGroup>
-                        <ListGroup.Item> <a href="https://www.youtube.com/watch?v=sY-fEKq88BkY">solarpunk MIX </a> </ListGroup.Item>
+                        <ListGroup.Item> <a href="https://www.youtube.com/watch?v=sY-fEKq8BkY">solarpunk MIX </a> </ListGroup.Item>
                         <ListGroup.Item> <a href="https://www.youtube.com/watch?v=l0vrsO3_HpU">plantasia Mort Garson</a> </ListGroup.Item>
                     </ListGroup>
                     </Container>
